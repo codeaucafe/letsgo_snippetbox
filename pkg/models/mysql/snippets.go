@@ -9,7 +9,7 @@ import (
 	// Modules) so that the import statement looks like this:
 	// "{your-module-path}/pkg/models".
 
-	"github.com/DataDavD/snippetbox/pkg/models"
+	"github.com/codeaucafe/snippetbox/pkg/models"
 )
 
 // SnippetModel is type which wraps a sql.DB connection pool

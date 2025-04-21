@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/DataDavD/snippetbox/pkg/models"
+	"github.com/codeaucafe/snippetbox/pkg/models"
 	"github.com/justinas/nosurf"
 )
 

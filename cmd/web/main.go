@@ -11,11 +11,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/DataDavD/snippetbox/pkg/models"
+	"github.com/codeaucafe/snippetbox/pkg/models"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/golangcollege/sessions"
 
-	"github.com/DataDavD/snippetbox/pkg/models/mysql"
+	"github.com/codeaucafe/snippetbox/pkg/models/mysql"
 )
 
 type contextKey string
@@ -47,6 +47,7 @@ func main() {
 	mysqlPw := os.Getenv("SNIPPETBOX_MYSQL_PW")
 	pw := fmt.Sprintf("web:%s@/snippetbox?parseTime=true", mysqlPw)
 
+	d := flag.s
 	addr := flag.String("addr", ":4000", "HTTP network address")
 	dsn := flag.String("dsn", pw, "MySQL data source name")
 	// Define a new command-line flag for the session secrete (a random key which will be

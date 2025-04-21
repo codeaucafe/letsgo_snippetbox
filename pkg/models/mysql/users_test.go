@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/DataDavD/snippetbox/pkg/models"
+	"github.com/codeaucafe/snippetbox/pkg/models"
 )
 
 func TestUserModelGet(t *testing.T) {
